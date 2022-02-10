@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Badges</title>
+    <script src="https://kit.fontawesome.com/c89017add5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../styles/documentation.css">
+    <link rel="stylesheet" href="badge.css">
+     <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="https://kit.fontawesome.com/bf13f25644.js" crossorigin="anonymous"></script>
+    
+    
+</head>
+
+<body>
+    <div class="pagewrapper">
+
+        <!-- HEADER NAVIGATION -->
+        <nav class="nav-container">
+            <div class="brand">
+                
+                <a href="../../index.html"  class="brand-name nav-item">OTG UI</a>
+            </div> 
+            <ul>
+                <li class="nav-item nav-icon ">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-github nav-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item nav-icon ">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-twitter nav-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item nav-icon">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-linkedin nav-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item nav-icon"></li>
+                    <i class="hamburger fa fa-bars fa-lg" aria-hidden="true"></i>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- SIDEBAR AND HERO SECTION -->
+        <div class="sidebar-and-content">
+
+            <!-- SIDEBAR -->
+            <aside class="sidebar default-shadow">
+                <ul>
+                    <li class="sidenav-list">
+                        <a href="../../Documentation/documentation.html" class="sidenav-item">Installation</a>
+                    </li>
+                    <h2 class="sidebar-heading">Components</h2>
+                    <li class="sidenav-list">
+                        <a href="#" class="sidenav-item">Alerts</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/badge/avatar.html" class="sidenav-item">Avatars</a>
+                    </li>
+                    <li class="sidenav-list active">
+                        <a href="../../Components/badge/badge.html" class="sidenav-item active">Badges</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="#" class="sidenav-item">Buttons</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="" class="sidenav-item">Cards</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="" class="sidenav-item">Chips</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/image/image.html" class="sidenav-item">Image</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/input/input.html" class="sidenav-item">Input</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/lists/lists.html" class="sidenav-item">Lists</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/modal/modal.html" class="sidenav-item">Modal</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/navigation/navigation.html" class="sidenav-item">Navigation</a>
+                    </li>
+                    
+                </ul>
+            </aside>
+
+            
+            <div class="content-container">
+                <div class="content">
+                    <h3 class="heading3">Badges</h3>
+                    <p class="description">
+                        Badges can be combined with Avatars, they are useful for status of user like busy, offline and away. They can also be used on icons for notifications.
+                    </p>
+                    <h4 class="heading4">Badges for Image Avatars</h4>
+                    <p class="description">
+                        The first variant of Badge is for Round Image Avatars.
+                    </p>
+                </div>
+                  
+                <div class="display-component">
+                    <div class="badge-container">
+                        <div class="badge">
+                            <img class="avatar avatar-lg" src="../../images/avatar-1.png" alt="avatar">
+                            <span class="badge-round-avatar badge-lg badge-busy"></span>
+                        </div>
+                        <div class="badge">
+                            <img class="avatar avatar-md" src="../../images/avatar-1.png" alt="avatar">
+                            <span class="badge-round-avatar badge-md badge-away"></span>
+                        </div>
+                        <div class="badge">
+                            <img class="avatar avatar-sm" src="../../images/avatar-1.png" alt="avatar">
+                            <span class="badge-round-avatar badge-sm badge-online"></span>
+                        </div>
+                        <div class="badge">
+                            <img class="avatar avatar-xs" src="../../images/avatar-1.png" alt="avatar">
+                            <span class="badge-round-avatar badge-xs badge-busy"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                   <pre>
+                   	<code class="language-html highlight-code">
+                   		 &lt;div class="badge" &gt
+                            		&lt; img class="avatar avatar-lg" src="avatar.png" alt="avatar"&gt
+                            		&lt; span class="badge-round-avatar badge-lg badge-busy">&lt;/span&gt
+                        	&lt;/div&gt
+                        	&lt;div class="badge"&gt
+                            		&lt;img class="avatar avatar-md" src="avatar.png" alt="avatar"&gt
+                            		&lt;span class="badge-round-avatar badge-md badge-away">&lt;/span&gt
+                        	&lt;/div&gt
+                        	&lt;div class="badge"&gt
+                            		&lt;img class="avatar avatar-sm" src="avatar.png" alt="avatar"&gt
+                            		&lt;span class="badge-round-avatar badge-sm badge-online">&lt;/span &gt
+                        	&lt;/div&gt
+                        	&lt;div class="badge"&gt
+                            		&lt;img class="avatar avatar-xs" src="avatar.png" alt="avatar"&gt
+                            		&lt;span class="badge-round-avatar badge-xs badge-busy">&lt;/span&gt
+                        	&lt;/div&gt
+                   	
+                   	</code>
+                   </pre>
+                </div>
+                
+                
+                <div class="content">
+                    <h4 class="heading4">Badges for Icons</h4>
+                    <p class="description">
+                        For Icon Badges
+                    </p>
+                </div>
+                  
+                <div class="display-component">
+                    <div class="badge-container">
+                        <div class="badge">
+                            <button type="button" class="icon-button">
+                            <i class="fas fa-solid fa-bell fa-lg"></i>
+                            <span class="icon-button__badge">99</span>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="code-snippet">
+                <pre>
+                	<code class="language-html highlight-code">
+                		&lt;div class="badge"&gt
+                            		&lt;button type="button" class="icon-button"&gt
+                            		&lt;i class="fas fa-solid fa-bell fa-lg">&lt;/i&gt
+                            		&lt;span class="icon-button__badge">99&lt;/span&gt
+                        	&lt;/div&gt
+                	</code>
+                <pre>
+            </div>
+                
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer-container flex-column-center">
+            <p class="footer-header">
+               
+            </p>
+            <ul>
+                <li class="footer-item">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-github footer-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-twitter footer-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-linkedin footer-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="copywright">
+                
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

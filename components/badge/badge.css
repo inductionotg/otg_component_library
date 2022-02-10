@@ -1,0 +1,100 @@
+@import url('../../styles/var.css');
+@import url('../avatar/avatar.css');
+
+.badge-container{
+    align-items: flex-end;
+    column-gap: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.badge{
+    font-size: 1.25rem;
+    position: relative;
+    width: max-content;
+}
+
+.badge-round-avatar{
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid var(--light-color);
+    bottom: 2px;
+    position: absolute;
+    right: 1px;
+}
+
+.badge-square-avatar{
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid var(--light-color);
+    bottom: 1px;
+    position: absolute;
+    right: -0.2rem;
+}
+
+.badge-lg{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.badge-md{
+    height: 1rem; 
+    width: 1rem;
+}
+
+.badge-sm{
+    height: 0.75rem;  
+    width: 0.75rem;
+}
+
+.badge-xs{
+    height: 0.5rem;  
+    width: 0.5rem;
+}
+
+.badge-busy{
+    background-color: red;
+}
+
+.badge-away{
+    background-color: #c4c417;
+}
+
+.badge-online{
+    background-color: green;
+}
+
+.icon-button{
+	position:relative;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	width:50px;
+	height:50px;
+	border:none;
+	outline:none;
+	border-radius:50%;
+	background:#dddddd;
+}
+.icon-button__badge{
+	position:absolute;
+	top:-5px;
+	right:-5px;
+	height:25px;
+	width:25px;
+	background:red;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	border-radius:50%;
+	
+	
+}
+pre code.highlight-code{
+    padding:1.4rem 0;
+    font-size: 1.2rem;
+    width:100%;
+    margin:auto;
+    
+}
