@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Button </title>
+    <link rel="stylesheet" href="../../styles/documentation.css">
+    <link rel="stylesheet" href="button.css">
+    <script src="https://kit.fontawesome.com/bf13f25644.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    
+    
+   
+    
+</head>
+
+<body>
+    <div class="pagewrapper">
+
+        <!-- HEADER NAVIGATION -->
+        <nav class="nav-container">
+            <div class="brand">
+               
+                <a href="../../index.html"  class="brand-name nav-item">OTG UI</a>
+            </div> 
+            <ul>
+                <li class="nav-item nav-icon ">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-github nav-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item nav-icon ">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-twitter nav-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item nav-icon">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-linkedin nav-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item nav-icon"></li>
+                    <i class="hamburger fa fa-bars fa-lg" aria-hidden="true"></i>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- SIDEBAR AND HERO SECTION -->
+        <div class="sidebar-and-content">
+
+            <!-- SIDEBAR -->
+            <aside class="sidebar default-shadow">
+                <ul>
+                    <li class="sidenav-list">
+                        <a href="../../Documentation/documentation.html" class="sidenav-item">Installation</a>
+                    </li>
+                    <h2 class="sidebar-heading">Components</h2>
+                    <li class="sidenav-list">
+                        <a href="../../Components/alert/alert.html" class="sidenav-item">Alerts</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/avatar/avatar.html" class="sidenav-item">Avatars</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/badge/badge.html" class="sidenav-item">Badges</a>
+                    </li>
+                    <li class="sidenav-list active">
+                        <a href="../../Components/button/button.html" class="sidenav-item active">Buttons</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/card/card.html" class="sidenav-item">Cards</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/chips/chips.html" class="sidenav-item">Chips</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/image/image.html" class="sidenav-item">Image</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/input/input.html" class="sidenav-item">Input</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/lists/lists.html" class="sidenav-item">Lists</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/modal/modal.html" class="sidenav-item">Modal</a>
+                    </li>
+                    <li class="sidenav-list">
+                        <a href="../../Components/navigation/navigation.html" class="sidenav-item">Navigation</a>
+                    </li>
+                    
+                </ul>
+            </aside>
+
+            <!-- HERO SECTION -->
+            <div class="content-container">
+                <div class="content">
+                    <h3 class="heading3">Buttons</h3>
+                    <p class="description">
+                        Use OTG UI custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more
+                    </p>
+                    <h4 class="heading4">Default Buttons</h4>
+                    
+                </div>
+                  
+                <div class="display-component">
+                    <div class="button-container flex-row-center">
+                        <button class="btn btn-primary">Primary</button>
+                        <button class="btn btn-secondary">Secondary</button>
+                        <button class="btn btn-success">Success</button>
+                        <button class="btn btn-error">Error</button>
+                        <button class="btn btn-disable" disabled>Disabled</button>
+                    </div> 
+                </div>
+
+                <div class="code-snippet">
+                    <pre>
+                    	<code class="language-html highlight-code">
+                    		&lt;button class="btn btn-primary"&gtPrimary&lt;/button&gt
+				&lt;button class="btn btn-secondary">Secondary&lt;/button&gt
+				&lt;button class="btn btn-success">Success&lt;/button&gt
+				&lt;button class="btn btn-error">Error&lt;/button&gt
+				&lt;button class="btn btn-disable" disabled&gtDisabled&lt;/button&gt
+                    	</code>
+                    </pre>
+                </div>
+                
+                <div class="content">
+                    <h4 class="heading4">Outline Buttons</h4>
+                </div>
+                  
+                <div class="display-component">
+                    <div class="button-container flex-row-center">
+                        <button class="btn btn-outline-primary">Primary</button>
+                        <button class="btn btn-outline-secondary">Secondary</button>
+                        <button class="btn btn-outline-success">Success</button>
+                        <button class="btn btn-outline-error">Error</button>
+                        <button class="btn btn-outline-disable" disabled>Disabled</button>
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <pre>
+                    	<code class="language-html highlight-code">
+                    		&lt;button class="btn btn-outline-primary"&gtPrimary&lt;/button&gt
+				&lt;button class="btn btn-outline-secondary">Secondary&lt;/button&gt
+				&lt;button class="btn btn-outline-success">Success&lt;/button&gt
+				&lt;button class="btn btn-outline-error">Error&lt;/button&gt
+				&lt;button class="btn btn-outline-disable" disabled&gtDisabled&lt;/button&gt
+                    	</code>
+                    </pre>
+                </div>
+                
+                
+                <div class="content">
+                    <h4 class="heading4">Link Buttons</h4>
+                </div>
+                  
+                <div class="display-component">
+                    <div class="button-container flex-row-center">
+                        <button class="btn"><a href="" class="btn-link btn-link-primary">Primary Link</a></button>
+                        <button class="btn "><a href="" class="btn-link btn-link-secondary">Secondary Link</a></button>
+                        
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                   <pre>
+                       <code class="language-html highlight-code">
+                        &lt;button class="btn"&gt&lt;a href="" class="btn-link btn-link-primary"&gtPrimary Link&lt;/&gt&lt;/button&gt
+                        &lt;button class="btn"&gt&lt;a href="" class="btn-link btn-link-secondary"&gtSecondary Link&lt;/a&gt&lt;/button&gt
+                        
+                       </code>
+                    <pre>
+                </div>
+
+                <div class="content">
+                    <h4 class="heading4">Buttons With Icons</h4>
+        
+                </div>
+                  
+                <div class="display-component">
+                    <div class="button-container flex-row-center">
+                        <button type="button" class="button">
+                            <span class="button__text">Download</span>
+                            <span class="button__icon"><i class="fas fa-arrow-up fa-lg"></i></i></span>
+                        </button>
+                        <button type="button" class="button">
+                            <span class="button__text">Add to Cart</span>
+                            <span class="button__icon"><i class="fas fa-shopping-cart fa-lg"></i></i></span>
+                        </button>
+                        
+                    </div>
+                </div>
+
+                <div class="code-snippet ">
+                    <pre>
+                        <code class="language-html highlight-code">
+                            &lt;button type="button" class="button"&gt
+                                &lt;span class="button__text">Download&lt;/span&gt
+                                &lt;span class="button__icon"&gt&lt;i class="fas fa-arrow-up fa-lg"&gt&lt;/i&gt&lt;/i&gt;&lt;/span&gt
+                            &lt;/button&gt
+                            &lt;button type="button" class="button"&gt
+                                &lt;span class="button__text"&gtAdd to Cart&lt;/span&gt
+                                &lt;span class="button__icon"&gt&lt;i class="fas fa-shopping-cart fa-lg"&gt&lt;/i&gt&lt;/i&gt&lt;/span&gt
+                            &lt;/button&gt
+                            
+                        </code>
+                    </pre>
+                </div>
+
+                
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer-container flex-column-center">
+            <p class="footer-header">
+                
+            </p>
+            <ul>
+                <li class="footer-item">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-github footer-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-twitter footer-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="footer-item">
+                    <a href="#" target="_blank">
+                        <i class="fa fa-linkedin footer-icon fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="copywright">
+                
+            </p>
+        </footer>
+    </div>
+   
+</body>
+
+</html>
