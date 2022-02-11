@@ -158,13 +158,13 @@
     background-color: #008168;
 }
 .button:active{
-    background-color:#006e58;
+    background-color:var(--secondary-color);
 }
 .button__text,.button__icon{
     display: inline-flex;
     align-items: center;
-    padding: 0 24px;
-    height:100%
+    padding: 0 1.5rem;
+    height:100%;
 }
 .button__icon{
     font-size: 1.5em;
