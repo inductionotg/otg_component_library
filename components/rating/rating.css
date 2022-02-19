@@ -1,0 +1,11 @@
+@import url("../../styles/var.css");
+
+.rating-disabled > i{
+    color: var(--disabled-color);
+    padding: 0.5rem;
+}
+
+.rating-disabled > i:hover{
+    color: var(--star-rating);
+    padding: 0.5rem;
+}
