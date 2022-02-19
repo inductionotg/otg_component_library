@@ -1,0 +1,49 @@
+@import url('../../styles/var.css');
+
+.list-container{
+    column-gap: 6rem;
+    flex-wrap: wrap;
+}
+
+/* Unordered Lists */
+.ulist-style-square{
+    list-style-type: square;
+}
+
+.ulist-style-circle{
+    list-style-type: circle;
+}
+
+
+
+/* Ordered Lists */
+.olist-style-alphabets{
+    list-style: lower-alpha;
+}
+
+
+
+.ulist-style-square, .ulist-style-circle, .ulist-style-none, .olist-style-alphabets{
+    padding: 5px;
+}
+
+/* Stack List */
+.stack-list{
+    width: 16rem;
+}
+
+.stack{
+    border-bottom: 1px solid var(--shadow-color);
+    padding: 5px;
+}
+
+.stack:last-child{
+    border-bottom: none;
+}
+pre code .highlight-code{
+    padding:1.4rem 0;
+    font-size: 1rem;
+    width:100%;
+    margin:auto;
+    
+}
