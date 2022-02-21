@@ -1,0 +1,21 @@
+@import url("../../styles/var.css");
+
+.chip-input {
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  width: 80%;
+  height: 2rem;
+}
+
+.chip {
+  align-items: center;
+  background-color: var(--primary-bg-color);
+  border-radius: 2rem;
+  display: inline-flex;
+  height: 1rem;
+  justify-content: center;
+  margin: 0.5rem;
+  padding: 0.625rem;
+  width: max-content;
+}
+
