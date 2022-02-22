@@ -1,10 +1,10 @@
 /* Navigation */
 .nav-container{
     align-items: center;
-    box-shadow:  0 0 0.625rem var(--shadow-color);
     display: flex;
     justify-content:space-between;
     padding: 0.75rem;
+    background-color: var(--sidebar-color);
 }
 .brand{
     display: flex;
