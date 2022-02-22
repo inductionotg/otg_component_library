@@ -18,3 +18,10 @@
 - [MODAL](https://otgui.netlify.app/components/modal/modal.html)
 - [NAVIGATION](https://otgui.netlify.app/components/navigation/navigation.html)
 - [RATING](https://otgui.netlify.app/components/rating/rating.html)
+
+# GET STARTED
+### You can add below lines inside your head section to get started -
+``` html
+ <link rel="stylesheet" href=" https://otgui.netlify.app/components.css">
+```
+### live Link-[OTG UI](https://otgui.netlify.app/index.html)
